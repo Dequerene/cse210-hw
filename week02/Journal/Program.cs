@@ -4,8 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Creativity / Exceeding Requirements: This helps the user remember
-        // how they felt on that day, not just what happened.
+        // Creativity / Exceeding Requirements: This helps the user remember how they felt on that day, not just what happened.
 
         Journal journal = new Journal();
         PromptGenerator promptGenerator = new PromptGenerator();
