@@ -12,7 +12,7 @@ class Program
         order1.AddProduct(new Product("Mouse", "MSE200", 25.00m, 2));
         order1.AddProduct(new Product("Keyboard", "KBD300", 45.00m, 1));
 
-        Address address2 = new Address("45 Eduardo Mondlane Ave", "Maputo", "Maputo", "Mozambique");
+        Address address2 = new Address("45 Eduardo Mondlane Ave", "Beira", "Beira", "Mozambique");
         Customer customer2 = new Customer("Osvaldo João", address2);
 
         Order order2 = new Order(customer2);
